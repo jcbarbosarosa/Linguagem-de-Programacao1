@@ -3,7 +3,8 @@ Profª Adriana da Silva Jacinto
 
 Repositório designado para as atividades da disciplina Linguagem de Programação I 
 
-# Testes de mesa 
+# TESTES DE MESA
+#TAREFA ESTRUTURA DE DADOS EM JAVA
 # EX78
 Entrada: Vamos ler 10 nomes de pessoas para o vetor.
 Suponhamos que as entradas sejam: "Ana", "Bob", "Carlos", "David", "Eva", "Fábio", "Giselle", "Hugo", "Ivan", "Julia".

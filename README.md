@@ -6,28 +6,74 @@ Repositório designado para as atividades da disciplina Linguagem de Programaç�
 # TESTES DE MESA
 TAREFA ESTRUTURA DE DADOS EM JAVA
 # EX78
-Entrada: Vamos ler 10 nomes de pessoas para o vetor.
-Suponhamos que as entradas sejam: "Ana", "Bob", "Carlos", "David", "Eva", "Fábio", "Giselle", "Hugo", "Ivan", "Julia".
-Agora, lemos mais um nome, por exemplo, "Carlos".
-Saída esperada: O programa verifica se "Carlos" está entre os 10 nomes lidos anteriormente e, neste caso, escreve "ACHEI".
+Passo 1: Inicializando uma lista de nomes com 10 exemplos:
+lista_nomes = ["Ana", “Bob", “Carlos", “David", “Eva", “Fábio", “Giselle", “Hugo", “Ivan", “Julia"]
+
+Passo 2: Definindo o nome a ser verificado:
+nome_verificar = “Carlos"
+
+Passo 3: Verificando se o nome está presente na lista:
+Comparando “Carlos” com o primeiro elemento da lista, que é “Ana” - Não corresponde.
+Comparando “Carlos” com o segundo elemento da lista, que é “Bob” - Não corresponde.
+Comparando “Carlos” com o terceiro elemento da lista, que é ele mesmo, ou seja, também é igual a 'Carlos' - Corresponde.
+Como encontramos um correspondente na lista de nomes, a condição if nome_verificar in lista_nomes se torna verdadeira.
+Portanto, o programa exibe a mensagem 'ACHEI'.
+Resultado: O programa imprime 'ACHEI' porque encontrou 'Carlos' na lista de nomes.
 
 # EX79
-Entrada: Vamos ler as notas de uma turma de 20 alunos.
-Suponhamos que as notas sejam: 8.0, 7.5, 6.8, 9.2, 5.5, 7.0, 8.5, 6.0, 7.2, 8.8, 6.5, 7.9, 8.2, 7.3, 9.0, 6.7, 8.3, 7.7, 7.8, 8.7.
-Calculamos a média da turma, que é a soma de todas as notas dividida por 20.
-A média da turma é: (8.0 + 7.5 + ... + 7.8 + 8.7) / 20 = 7.58 (aproximadamente).
-Agora, contamos quantos alunos obtiveram notas acima da média (7.58).
-Vamos supor que 12 alunos tiveram notas acima da média.
-Saída esperada: O programa escreve a média da turma (7.58) e o resultado da contagem (12 alunos com notas acima da média).
+Passo 1: Inicialização das notas da turma:
+{8.0, 7.5, 6.8, 9.2, 5.5, 7.0, 8.5, 6.0, 7.2, 8.8, 6.5, 7.9, 8.2, 7.3, 9.0, 6.7, 8.3, 7.7, 7.8, 8.7}
+
+Passo 2: Cálculo da média da turma:
+Soma de notas: 8.0 + 7.5 + 6.8 + 9.2 + 5.5 + 7.0 + 8.5 + 6.0 + 7.2 + 8.8 + 6.5 + 7.9 + 8.2 + 7.3 + 9.0 + 6.7 + 8.3 + 7.7 + 7.8 + 8.7 = 151.8
+Média da turma: 151.8 / 20 = 7.59
+
+Passo 3: Contagem de alunos com notas acima da média:
+Agora, vamos verificar quantos alunos obtiveram notas acima da média (7.59).
+8.0 > 7.59 (acima da média)
+7.5 > 7.59 (acima da média)
+6.8 > 7.59 (abaixo da média)
+9.2 > 7.59 (acima da média)
+5.5 > 7.59 (abaixo da média)
+7.0 > 7.59 (abaixo da média)
+8.5 > 7.59 (acima da média)
+6.0 > 7.59 (abaixo da média)
+7.2 > 7.59 (abaixo da média)
+8.8 > 7.59 (acima da média)
+6.5 > 7.59 (abaixo da média)
+7.9 > 7.59 (acima da média)
+8.2 > 7.59 (acima da média)
+7.3 > 7.59 (abaixo da média)
+9.0 > 7.59 (acima da média)
+6.7 > 7.59 (abaixo da média)
+8.3 > 7.59 (acima da média)
+7.7 > 7.59 (abaixo da média)
+7.8 > 7.59 (abaixo da média)
+8.7 > 7.59 (acima da média)
+O resultado é que 9 alunos obtiveram notas acima da média.
+
+Passo 4: Exibição da saída:
+A saída do programa será:
+A média da turma é: 7.59
+9 alunos tiveram notas acima da média.
 
 # EX80
-Entrada: Vamos ler as notas de uma turma de 20 alunos.
-Suponhamos que as notas sejam: 8.0, 7.5, 6.8, 9.2, 5.5, 7.0, 8.5, 6.0, 7.2, 8.8, 6.5, 7.9, 8.2, 7.3, 9.0, 6.7, 8.3, 7.7, 7.8, 8.7.
-Calculamos a média da turma, que é a soma de todas as notas dividida por 20.
-A média da turma é: (8.0 + 7.5 + ... + 7.8 + 8.7) / 20 = 7.58 (aproximadamente).
-Agora, contamos quantos alunos obtiveram notas acima da média (7.58).
-Vamos supor que 12 alunos tiveram notas acima da média.
-Saída esperada: O programa escreve a média da turma (7.58) e o resultado da contagem (12 alunos com notas acima da média).
+Passo 1: Inicialização das notas da turma:
+{8.0, 7.5, 6.8, 9.2, 5.5, 7.0, 8.5, 6.0, 7.2, 8.8, 6.5, 7.9, 8.2, 7.3, 9.0, 6.7, 8.3, 7.7, 7.8, 8.7}
+
+Passo 2: Cálculo da média da turma:
+Soma das notas = 8.0 + 7.5 + 6.8 + 9.2 + 5.5 + 7.0 + 8.5 + 6.0 + 7.2 + 8.8 + 6.5 + 7.9 + 8.2 + 7.3 + 9.0 + 6.7 + 8.3 + 7.7 + 7.8 + 8.7 = 151.6
+
+Agora, calculamos a média:
+Média da turma = Soma das notas / Número de alunos = 151.6 / 20 = 7.58(APROXIMADAMENTE)
+
+Passo 3: Contagem de alunos com notas acima da média:
+Notas acima da média: 8.0, 7.5, 9.2, 8.5, 7.9, 8.2, 9.0, 8.3, 7.8, 8.7
+Há 10 alunos com notas acima da média.
+
+Passo 4: Saída esperada:
+A média da turma é: 7.58
+10 alunos tiveram notas acima da média.
 
 # EX81
 Entrada: Vamos ler o vetor Q novamente.

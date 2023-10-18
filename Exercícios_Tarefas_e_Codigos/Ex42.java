@@ -5,8 +5,6 @@ public class Ex42 {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Digite o número do empregado (código): ");
-        int codigo = scanner.nextInt();
-
         System.out.print("Digite o ano de nascimento do empregado: ");
         int anoNascimento = scanner.nextInt();
 

@@ -8,7 +8,6 @@ public class Ex72 {
 
         for (int i = 1; i <= 15; i++) {
             System.out.print("Informe o código do produto " + i + ": ");
-            int codigo = scanner.nextInt();
             System.out.print("Informe o preço do produto " + i + ": ");
             double preco = scanner.nextDouble();
 

@@ -7,8 +7,6 @@ public class Ex25 {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Informe o número da conta do cliente: ");
-        int numeroConta = scanner.nextInt();
-
         System.out.print("Informe o saldo: ");
         double saldo = scanner.nextDouble();
 

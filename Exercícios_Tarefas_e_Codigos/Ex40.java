@@ -5,8 +5,6 @@ public class Ex40 {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Digite a descrição do produto: ");
-        String descricao = scanner.nextLine();
-
         System.out.print("Digite a quantidade adquirida: ");
         int quantidade = scanner.nextInt();
 
